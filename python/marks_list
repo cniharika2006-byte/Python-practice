@@ -1,0 +1,77 @@
+numbers = list(map(int, input().split()))
+print(numbers)
+
+#Find the largest element
+numbers=[12,13,14]
+print(max(numbers))
+
+#Count even numbers in a list
+numbers=list(map(int, input().split()))
+print(numbers)
+count=0
+for num in numbers:
+    if num% 2==0:
+        count+=1
+print(count)
+
+#Reverse a list
+numbers = list(map(int, input().split()))
+for i in range(len(numbers)-1, -1, -1):
+    print(numbers[i], end=" ")
+print(numbers[::-1])
+
+
+
+
+#marks_list
+marks = [49, 35, 32, 90, 94]
+
+# Print all marks
+for mark in marks:
+    print(mark)
+
+# Total, Average, Max, Min
+total = sum(marks)
+avg = total / len(marks)
+highest = max(marks)
+lowest = min(marks)
+
+print("Total:", total)
+print("Average:", avg)
+print("Highest:", highest)
+print("Lowest:", lowest)
+
+# Passed students
+pass_count = 0
+for mark in marks:
+    if mark >= 35:
+        pass_count += 1
+
+print("Passed students:", pass_count)
+
+# Failed students
+fail_count = 0
+for mark in marks:
+    if mark < 35:
+        fail_count += 1
+
+print("Failed students:", fail_count)
+
+# Grades for each student
+for mark in marks:
+    if mark >= 90:
+        print(mark, ": A")
+    elif 75 <= mark <= 89:
+        print(mark, ": B")
+    elif 60 <= mark <= 74:
+        print(mark, ": C")
+    elif 35 <= mark <= 59:
+        print(mark, ": D")
+    else:
+        print(mark, ": FAILED")
+
+
+
+
+
+
