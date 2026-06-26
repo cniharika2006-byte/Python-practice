@@ -80,7 +80,6 @@ def class_report():
     print("Lowest Average       :", lowest_avg)
     print("Topper               :", topper)
     print("Lowest Performer     :", lowest_student)
-# ---------------- Main Program ---------------- #
 while True:
     print("\n========= STUDENT MANAGEMENT SYSTEM =========")
     print("1. Add Student")
